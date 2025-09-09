@@ -13,9 +13,9 @@ interface HeroProps {
 const Hero: React.FC<HeroProps> = ({ isVisible }) => {
   // 1. Define your images for the carousel
   const carouselImages = [
-    "src/static/images/AdobeStock_1318579643_Preview.jpeg", // Replace with your image paths
-    "src/static/images/AdobeStock_1401571459_Preview.jpeg",
-    "src/static/images/AdobeStock_1574627043_Preview.jpeg",
+    "public/images/AdobeStock_1318579643_Preview.jpeg", // Replace with your image paths
+    "public/images/AdobeStock_1401571459_Preview.jpeg",
+    "public/images/AdobeStock_1574627043_Preview.jpeg",
   ];
 
   // 2. Configure the carousel settings
